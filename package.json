@@ -2,9 +2,11 @@
   "name": "meghaproject",
   "version": "1.0.0",
   "description": "This is a backend series",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon src/index.js"
   },
   "keywords": [
     "Javascript",
@@ -12,5 +14,8 @@
     "express"
   ],
   "author": "Shiv Chaudhary",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
